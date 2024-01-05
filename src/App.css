@@ -1,0 +1,121 @@
+.login-page, .signin-page{
+  display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 400px;
+    text-align: center;
+    gap: 20px;
+   color: blue;
+}
+
+.page-not-found{
+  text-align: center;
+}
+
+.home{
+margin: 20px auto;
+  max-width: 500px;
+  height: 500px;
+}
+
+.add-note-form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  gap: 1rem
+}
+
+
+
+.title-date{
+  display:flex;
+  /* flex-wrap: wrap; */
+  gap:5%
+}
+
+.title{
+  width:80%;
+}
+
+.all-notes{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.profile-container{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 5px 10px 20px  rgb(196, 37, 69);
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.profile-pic{
+  text-align: center;
+
+}
+
+.profile-description{
+  text-align: justify;
+}
+
+.profile-spec{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+/* .profile-description{
+  text-align: justify;
+  max-height: 100px;
+} */
+
+.description{
+  overflow:hidden;
+  margin: 0px;
+  text-align: justify;
+  max-height: 250px;
+  cursor: pointer;
+}
+
+.spec-desc{
+  max-height: 300px;
+}
+
+
+/* .show-note{
+  filter: blur(2px);
+} */
+
+.movie-spec{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.movie-detail-container{
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.loading{
+  max-width: 50%;
+  height: auto;
+  display: table;
+  margin: 0 auto;
+}
+
+.notfound{
+  cursor: pointer;
+}
